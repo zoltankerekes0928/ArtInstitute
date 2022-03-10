@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/https//zoltankerekes0928/github.io/ArtInstitute/static/css/main.91c03b5c.css",
+    "main.js": "/https//zoltankerekes0928/github.io/ArtInstitute/static/js/main.5613822f.js",
+    "static/media/am_artinstituteofchicago_01.png": "/https//zoltankerekes0928/github.io/ArtInstitute/static/media/am_artinstituteofchicago_01.2e0a0941443a2e8c1c1b.png",
+    "index.html": "/https//zoltankerekes0928/github.io/ArtInstitute/index.html",
+    "main.91c03b5c.css.map": "/https//zoltankerekes0928/github.io/ArtInstitute/static/css/main.91c03b5c.css.map",
+    "main.5613822f.js.map": "/https//zoltankerekes0928/github.io/ArtInstitute/static/js/main.5613822f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91c03b5c.css",
+    "static/js/main.5613822f.js"
+  ]
+}
