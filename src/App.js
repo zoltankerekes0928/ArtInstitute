@@ -16,7 +16,7 @@ function App() {
         <Nav/>
         {stateList.loadingState && <Loading/>}
         <Routes>
-          <Route path='/' index element={<ArtworkList/>} />
+          <Route path='/ArtInstitute/' index element={<ArtworkList/>} />
           <Route path='/artwork/:id' element={<Artwork/>}/>
           <Route path='FavoriteArtworks' element={<FavoriteArtworks/>} />
         </Routes>
