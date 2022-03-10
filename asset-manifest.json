@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ArtInstitute/static/css/main.91c03b5c.css",
-    "main.js": "/ArtInstitute/static/js/main.1a40c58f.js",
+    "main.js": "/ArtInstitute/static/js/main.813acdaa.js",
     "static/media/am_artinstituteofchicago_01.png": "/ArtInstitute/static/media/am_artinstituteofchicago_01.2e0a0941443a2e8c1c1b.png",
     "index.html": "/ArtInstitute/index.html",
     "main.91c03b5c.css.map": "/ArtInstitute/static/css/main.91c03b5c.css.map",
-    "main.1a40c58f.js.map": "/ArtInstitute/static/js/main.1a40c58f.js.map"
+    "main.813acdaa.js.map": "/ArtInstitute/static/js/main.813acdaa.js.map"
   },
   "entrypoints": [
     "static/css/main.91c03b5c.css",
-    "static/js/main.1a40c58f.js"
+    "static/js/main.813acdaa.js"
   ]
 }
