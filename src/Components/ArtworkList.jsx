@@ -59,7 +59,7 @@ return (
       <button  onClick={nextClick}>Next</button>
     </div>
   
-    <form>
+    <form >
       <label htmlFor="number">Items per Page:</label>
        <select name='number' onChange={(e)=>setPerPageNum(e.target.value)} className="input-field">
           <option>25</option>
