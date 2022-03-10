@@ -16,7 +16,7 @@ const Nav = () => {
          </div>
         <ul>
           <li>
-            <Link to="/ArtInstitute" className='link'>Artwork List</Link>
+            <Link to="/" className='link'>Artwork List</Link>
           </li>
           <li>
             <Link to="/FavoriteArtworks" className='link'>Favorite Artworks<div className="counter-container">
