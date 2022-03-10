@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import { useContext} from 'react'
-import { Link } from 'react-router-dom'
-import { ArtContext } from './ContextProvider.jsx'
+import React, { useState } from 'react';
+import { useContext} from 'react';
+import { Link } from 'react-router-dom';
+import { ArtContext } from './ContextProvider.jsx';
 import { Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../Components_Style/artworkList.scss"
+import "../Components_Style/artworkList.scss";
 
 const ArtworkList = () => {
   const stateList = useContext(ArtContext)

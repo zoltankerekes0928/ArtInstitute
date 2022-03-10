@@ -1,9 +1,9 @@
-import React from 'react'
-import { useContext } from 'react'
-import { ArtContext } from './ContextProvider.jsx'
+import React from 'react';
+import { useContext } from 'react';
+import { ArtContext } from './ContextProvider.jsx';
 import { Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../Components_Style/artworkList.scss"
+import "../Components_Style/artworkList.scss";
 
  const FavoriteArtworks = () => {
 

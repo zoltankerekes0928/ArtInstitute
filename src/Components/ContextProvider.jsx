@@ -1,5 +1,5 @@
-import React from 'react'
-import { useState, useEffect, createContext } from 'react'
+import React from 'react';
+import { useState, useEffect, createContext } from 'react';
 
 export const  ArtContext = createContext()
 
