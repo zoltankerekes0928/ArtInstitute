@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/github.io/ArtInstitute/static/css/main.91c03b5c.css",
-    "main.js": "/github.io/ArtInstitute/static/js/main.b6bb6720.js",
-    "static/media/am_artinstituteofchicago_01.png": "/github.io/ArtInstitute/static/media/am_artinstituteofchicago_01.2e0a0941443a2e8c1c1b.png",
-    "index.html": "/github.io/ArtInstitute/index.html",
-    "main.91c03b5c.css.map": "/github.io/ArtInstitute/static/css/main.91c03b5c.css.map",
-    "main.b6bb6720.js.map": "/github.io/ArtInstitute/static/js/main.b6bb6720.js.map"
+    "main.css": "/ArtInstitute/static/css/main.91c03b5c.css",
+    "main.js": "/ArtInstitute/static/js/main.1a40c58f.js",
+    "static/media/am_artinstituteofchicago_01.png": "/ArtInstitute/static/media/am_artinstituteofchicago_01.2e0a0941443a2e8c1c1b.png",
+    "index.html": "/ArtInstitute/index.html",
+    "main.91c03b5c.css.map": "/ArtInstitute/static/css/main.91c03b5c.css.map",
+    "main.1a40c58f.js.map": "/ArtInstitute/static/js/main.1a40c58f.js.map"
   },
   "entrypoints": [
     "static/css/main.91c03b5c.css",
-    "static/js/main.b6bb6720.js"
+    "static/js/main.1a40c58f.js"
   ]
 }
