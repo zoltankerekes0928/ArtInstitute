@@ -1,0 +1,19 @@
+.art-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  h1 {
+    color: blue;
+  }
+  .img-container {
+    margin-top: 2vh;
+    object-fit: scale-down;
+    img {
+      width: 100%;
+    }
+  }
+  .btn {
+    margin: 2vh 0 2vh 0;
+  }
+}

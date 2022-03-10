@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.scss';
+import Nav from './Components/Nav';
+import Loading from './Components/Loading';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ArtworkList from './Components/ArtworkList';
+import FavoriteArtworks  from './Components/FavoriteArtworks';
+import Artwork from './Components/Artwork';
+import { ArtContext } from './Components/ContextProvider.jsx'
+import { useContext} from 'react'
 
 function App() {
+  const stateList = useContext(ArtContext)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Nav/>
+        {stateList.loadingState && <Loading/>}
+        <Routes>
+          <Route path='/' index element={<ArtworkList/>} />
+          <Route path='/artwork/:id' element={<Artwork/>}/>
+          <Route path='FavoriteArtworks' element={<FavoriteArtworks/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }
