@@ -70,12 +70,12 @@ return (
       <button onClick={(e)=>stateList.setPerPage(e, perPageNum)} className='submit'>Select</button>
       <br></br>
       <label htmlFor="search">Search:</label>
-      <input type="search" name="search"  placeholder='title or author...' value={search} onChange={(e)=>setSearch(e.target.value)} className="input-field"/>
+      <input type="search" name="search" onKeyPress={(e) => { e.key === 'Enter' && e.preventDefault()}}  placeholder='title or author...' value={search} onChange={(e)=>setSearch(e.target.value)} className="input-field"/>
       <button onClick={handleClick} className='submit'>Search</button>
       <button onClick={resetClick} className='submit'>Reset</button>
       <br></br>
       <label htmlFor="gotonumber">Go To:<span>(1-{allPages})</span></label>
-      <input type="number" name="gottonumber"  min="1" max={allPages} value={gotoPage} onChange={(e)=>setGotoPage(e.target.value)} className="input-field"/>
+      <input type="number" name="gottonumber" onKeyPress={(e) => { e.key === 'Enter' && e.preventDefault()}}  min="1" max={allPages} value={gotoPage} onChange={(e)=>setGotoPage(e.target.value)} className="input-field"/>
       <button onClick={gohandleClick} className='submit'>Go</button>
     </form>
   </div>

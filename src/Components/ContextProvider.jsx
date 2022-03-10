@@ -30,7 +30,6 @@ export function ContextProvider({children}){
       current:currentPage, 
       setPage:function(dir){
         if(dir === "next"){
-          
           setCurrentPage(currentPage+1)
           }else if(dir === "prev"){
           if(currentPage>1){
@@ -38,16 +37,16 @@ export function ContextProvider({children}){
           }else{
           setCurrentPage(currentPage) }}},
       setPerPage:function(e, perPageNum){
-          e.preventDefault()
-          setPagePerLimit(perPageNum)},
+        e.preventDefault()
+        setPagePerLimit(perPageNum)},
       favorite:function(item){
-          setFavorite([...favorite, item])},
+        setFavorite([...favorite, item])},
       favoriteList:favorite, 
       delFavorite:function(id){
-         const newFavorite = favorite.filter(item=>item.id !== id)
-         setFavorite(newFavorite)},
+        const newFavorite = favorite.filter(item=>item.id !== id)
+        setFavorite(newFavorite)},
       search:function(data){
-          setDataList(data)},
+        setDataList(data)},
       reset:function(){
       getData()
       setCurrentPage(1)},

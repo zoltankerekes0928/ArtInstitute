@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path='/' index element={<ArtworkList/>} />
           <Route path='/artwork/:id' element={<Artwork/>}/>
-          <Route path='FavoriteArtworks' element={<FavoriteArtworks/>} />
+          <Route path='/FavoriteArtworks' element={<FavoriteArtworks/>} />
         </Routes>
       </Router>
     </div>
