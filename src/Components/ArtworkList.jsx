@@ -3,6 +3,7 @@ import { useContext} from 'react';
 import { Link } from 'react-router-dom';
 import { ArtContext } from './ContextProvider.jsx';
 import { Card, Button } from 'react-bootstrap';
+import Footer from './Footer.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../Components_Style/artworkList.scss";
 
@@ -92,6 +93,7 @@ return (
         )
       })}
     </div>
+    <Footer/>
    </div>
    
 )
