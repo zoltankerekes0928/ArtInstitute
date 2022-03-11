@@ -21,12 +21,12 @@ const ArtworkList = () => {
      const allPages = stateList.data.pagination.total_pages
 
       const handleClick =(e)=>{
-      e.preventDefault()
-       fetch(`https://api.artic.edu/api/v1/artworks/search?q=${search}[is_public_domain]=true&limit=100&fields=id,title,image_id`)
-      .then(data=>data.json())
-      .then(data=>stateList.search(data))
-       setSearch("")
-    }
+        e.preventDefault()
+        fetch(`https://api.artic.edu/api/v1/artworks/search?q=${search}[is_public_domain]=true&limit=100&fields=id,title,image_id`)
+        .then(data=>data.json())
+        .then(data=>stateList.search(data))
+        setSearch("")
+      }
 
     const gohandleClick=(e)=>{
       e.preventDefault()
